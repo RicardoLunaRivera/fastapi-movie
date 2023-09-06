@@ -15,3 +15,7 @@ python -m venv env
 pip install fastapi uvicorn
 pip freeze > requirements.txt
 ```
+
+5- create main.py
+
+6- run server -> uvicorn main:app --reload
